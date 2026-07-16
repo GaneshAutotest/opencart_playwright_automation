@@ -13,8 +13,10 @@ private readonly SearchButton:Locator;
 constructor(page:Page){
 this.page=page;
 this.MyAccountDropdown=this.page.locator("a[title='My Account'] span[class='hidden-xs hidden-sm hidden-md']");
-this.RegisterLink=this.page.locator("a[href='http://localhost/opencart/upload/index.php?route=account/register']");
-this.loginLink=this.page.locator("a[href='http://localhost/opencart/upload/index.php?route=account/login']");
+//this.RegisterLink=this.page.locator("a[href='http://localhost/opencart/upload/index.php?route=account/register']");
+this.RegisterLink=this.page.getByRole('link', { name: 'Register' });
+//this.loginLink=this.page.locator("a[href='http://localhost/opencart/upload/index.php?route=account/login']");
+this.loginLink=this.page.getByRole('link', { name: 'Login' });
 this.searchInput=this.page.locator("input[placeholder='Search']");
 this.SearchButton=this.page.locator("button[class='btn btn-default btn-lg']");
 

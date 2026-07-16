@@ -1,6 +1,9 @@
 export class TestConfig{
 //url    
-appUrl="http://localhost/opencart/upload/"
+//appUrl="http://localhost/opencart/upload/"
+appUrl="https://naveenautomationlabs.com/opencart"
+//appUrl="https://tutorialsninja.com/demo/"
+
 
 //valid login credentials- create your own login account
 email="ganeshnaik@gmail.com"
