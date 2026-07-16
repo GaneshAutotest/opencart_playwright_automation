@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:master": "playwright test --grep @master",
-    "test:sanity": "playwright test --grep @sanity",
-    "test:regression": "playwright test --grep @regression",
-    "test:datadriven": "playwright test --grep @datadriven",
-    "test:master:headed": "playwright test --grep @master --headed",
-    "test:EndToEnd:headed":"playwright test --grep @end-to-end --headed",
-    "test:sanity:debug": "playwright test --grep @sanity --debug"
-    
+      "test:master": "playwright test --grep @master",
+      "test:sanity": "playwright test --grep @sanity",
+      "test:regression": "playwright test --grep @regression",
+      "test:datadriven": "playwright test --grep @datadriven",
+      "test:master:headed": "playwright test --grep @master --headed",
+      "test:EndToEnd:headed":"playwright test --grep @end-to-end --headed",
+      "test:sanity:debug": "playwright test --grep @sanity --debug"
+      
   },
   "keywords": [],
   "author": "",
