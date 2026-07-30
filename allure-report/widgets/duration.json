@@ -1,1 +1,1 @@
-[{"uid":"9164621dbe1cf931","name":"Add product to cart test @master @regression","time":{"start":1785416050253,"stop":1785416054742,"duration":4489},"status":"passed","severity":"normal"}]
+[{"uid":"2ff81121cfa80e5f","name":"User registration test @master @sanity @regression","time":{"start":1785417824521,"stop":1785417830236,"duration":5715},"status":"passed","severity":"normal"},{"uid":"ca5bf67dbf6ef34c","name":"User login test @master @sanity @regression","time":{"start":1785417824150,"stop":1785417826749,"duration":2599},"status":"passed","severity":"normal"}]

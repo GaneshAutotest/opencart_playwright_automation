@@ -1,2 +1,3 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","4489","Add product to cart test @master @regression","chromium","2026-07-30","passed","2026-07-30","","AddToCart.spec.ts","",""
+"","5715","User registration test @master @sanity @regression","chromium","2026-07-30","passed","2026-07-30","","accountRegistration.spec.ts","",""
+"","2599","User login test @master @sanity @regression","chromium","2026-07-30","passed","2026-07-30","","Login.spec.ts","",""

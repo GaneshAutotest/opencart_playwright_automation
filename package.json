@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+      "clean:allure": "node -e \"const fs=require('fs');['allure-results','allure-report'].forEach(folder=>fs.rmSync(folder,{recursive:true,force:true}))\"",
+      
       "test:master": "playwright test --grep @master",
       "test:sanity": "playwright test --grep @sanity",
       "test:regression": "playwright test --grep @regression",
       "test:datadriven": "playwright test --grep @datadriven",
       "test:master:headed": "playwright test --grep @master --headed",
       "test:EndToEnd:headed":"playwright test --grep @end-to-end --headed",
-      "test:sanity:debug": "playwright test --grep @sanity --debug"
+      "test:sanity:debug": "playwright test --grep @sanity --debug",
       
+      "allure:generate": "allure generate allure-results --clean -o allure-report",
+      "allure:open": "allure open allure-report"
   },
   "keywords": [],
   "author": "",
