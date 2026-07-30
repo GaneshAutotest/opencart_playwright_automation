@@ -13,4 +13,9 @@ password="@Tech4Lead"
 productName="MacBook"
 productQuantity="2"
 totalPrice="$1,204.00"
+
+//Run this command if need to run project through jenkins
+//Go to the location where Jenkins file downloaded and open the command prompt 
+//java -jar Jenkins.war
 }
+ 

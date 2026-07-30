@@ -2,7 +2,6 @@ import { Page, expect, Locator } from '@playwright/test';
 
 export class CheckoutPage {
     private readonly page: Page;
-    
     // Locators
     private readonly radioGuest: Locator;
     private readonly btnContinue: Locator;
